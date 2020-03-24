@@ -83,7 +83,7 @@ hr {
 	width: 100em;
 	margin: 0 auto;
     line-height: 1.625;
-    font-size: 50px;
+    font-size: 22px;
   }
   
   
@@ -119,93 +119,6 @@ nav ul li a {
 	display: inline-block;
 	font-size: 60px;
 	font-style: bold;
-}
-
-/* Intro Styles 
-
-#intro {
-	width: 60%;
-	background-color: rgba(220, 220, 220, 0.25);
-	box-shadow: 0px 3px 0px rgb(215, 215, 215);
-	padding-top: 1.5px;
-	padding-bottom: 0.5px;
-	margin: 10px 10px 10px;
-	float: left;
-	text-align: center;
-}
-
-#intro h2 {
-	text-align: center;
-	font-size: 30px;
-}
-
-#intro p {
-	padding-left: 5em;
-	padding-right: 5em;
-	text-align: justify;
-}
-
-#intro img {
-	text-align: center;
-	box-shadow: 3px 3px 3px rgb(200, 200, 200);
-	border-style: solid;
-	border-width: 1px;
-}
-
-#intro a {
-	color: rgb(0, 0, 0);
-	font-weight: bold;
-	text-decoration: none;
-
-}
-
-#intro a:hover {
-	text-decoration: underline;
-}
-
-#intro #name {
-	text-align: right;
-	font-style: italic;
-}
-
-/* Links Styles */
-
-#links {
-	width: 33%;
-	float: left;
-	margin: 10px 10px 10px;
-	background-color: rgba(220, 220, 220, 0.25);
-	box-shadow: 0px 3px 0px rgb(215, 215, 215);
-	
-}
-
-#links h2 {
-	text-align: center;
-	color: rgb(255, 255, 255);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: rgba(46, 92, 184, 0.95);
-	box-shadow: 0px 6.5px 0px rgb(40, 84, 164);
-}
-
-#links p {
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	letter-spacing: 1px;
-}
-
-#links p a {
-	text-decoration: none;
-	color: black;
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#links p a:hover {
-	font-weight: bold;
-	
 }
 
 /* Footer Styles */
