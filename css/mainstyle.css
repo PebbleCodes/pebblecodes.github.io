@@ -83,7 +83,7 @@ hr {
 	width: 30em;
 	margin: 0 auto;
 	line-height: 1.625;
-	font-size: 18px;
+
   }
   
   
@@ -121,6 +121,7 @@ nav ul li a {
 	font-style: bold;
 }
 
+
 /* Footer Styles */
 
 footer {
@@ -157,7 +158,7 @@ footer address {
 }
 
 /* mobile styles */
-@media (min-width: 600px) {
+@media (max-width: 600px) {
 
 	html, body {
 		font: 12px/15px sans-serif;
@@ -187,10 +188,17 @@ footer address {
 		text-decoration: underline;
 		color: #660066;
 		}
+	.page-content {
+		width: 30em;
+		margin: 0 auto;
+		line-height: 1.625;
+		font-size: 22px;
+			
+		}
 
 }
 /* iPhone-specific styles */
-@media only screen and (min-width: 480px) { 
+@media only screen and (max-device-width: 480px) { 
 
 	html {
 		-webkit-text-size-adjust: none;
