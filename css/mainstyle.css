@@ -50,11 +50,12 @@ hr {
 		-ms-flex-align: center;
 			align-items: center;
 	height: 400px;
-	min-height: 105px;
+	min-height: 75px;
 	background-image: url(https://pebblecodes.com/images/seattle.jpg);
 	background-size: cover;
-	background-position: top;
+	background-position: center;
 	overflow: hidden;
+	box-shadow: 0px 2px 2px rgb(41, 41, 41);
   }
   .hero-nav .hero-nav__inner {
 	z-index: 1;
@@ -94,7 +95,7 @@ nav ul {
 	margin: auto;
 	list-style-type: none;
 	text-align: center;
-	letter-spacing: 1px;
+	letter-spacing: 2.5px;
 }
 
 nav ul li:hover {
@@ -108,14 +109,14 @@ nav ul li a {
 	display: inline-block;
 	padding-top: 6px;
 	padding-bottom: 6px;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
 #navlist li {
 	list-style-type: none;
 	display: inline-block;
-	font-size: 25px;
+	font-size: 1.5vw;
 	font-style: bold;
 }
 
