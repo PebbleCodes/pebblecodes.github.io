@@ -8,6 +8,8 @@
 /* Body Styles */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+@media handheld {
+
 body {
 	background-color: #f3f3f3;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -17,7 +19,7 @@ body {
 
 body section p {
 	padding-left: 1em;
-	font-size: 30px;
+	font-size: 50px;
 }
 
 body h1 {
@@ -50,7 +52,7 @@ hr {
 		-ms-flex-align: center;
 			align-items: center;
 	height: 400px;
-	min-height: 75px;
+	min-height: 150px;
 	background-image: url(https://pebblecodes.com/images/seattle.jpg);
 	background-size: cover;
 	background-position: center;
@@ -80,9 +82,10 @@ hr {
   }
   
   .page-content {
-	width: 50em;
+	width: 100em;
 	margin: 0 auto;
-	line-height: 1.625;
+    line-height: 1.625;
+    font-size: 50px;
   }
   
   
@@ -116,7 +119,7 @@ nav ul li a {
 #navlist li {
 	list-style-type: none;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 60px;
 	font-style: bold;
 }
 
@@ -242,3 +245,4 @@ footer address {
 	clear: left;
 }
 
+}
