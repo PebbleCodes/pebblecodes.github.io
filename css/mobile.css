@@ -8,8 +8,6 @@
 /* Body Styles */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-@media handheld {
-
 body {
 	background-color: #f3f3f3;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -243,6 +241,4 @@ footer address {
 	padding-bottom: 12px;
 	text-align: center;
 	clear: left;
-}
-
 }
