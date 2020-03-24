@@ -36,7 +36,7 @@ header {
 	display: block;
 	text-align: center;
 	border-bottom: 1.75px solid #333333;
-    	background: url("images/seattle.jpg");
+    background-image: url("images/seattle.jpg");
 	background-repeat: no-repeat;
 	padding-top: 3em;
 	padding-right: 1em;
