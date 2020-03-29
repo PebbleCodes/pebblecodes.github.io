@@ -7,6 +7,11 @@
 
 /* Body Styles */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+	font-family: "Unispace";
+	src: url(https://pebblecodes.com/css/fonts/Unispace/unispace.woff)format("woff");
+	src: url(https://pebblecodes.com/css/fonts/Unispace/unispace.woff2)format("woff2");
+}
 
 body {
 	background-color: #f3f3f3;
@@ -105,11 +110,12 @@ nav ul li:hover {
 }
 
 nav ul li a {
+	font-family: 'Unispace';
 	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
 	display: inline-block;
 	padding-top: 6px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	padding-right: 25px;
 	padding-left: 25px;
 	text-align: right;
@@ -127,8 +133,8 @@ nav ul li a {
 }
 
 #navlist #pebble img {
-	max-width:65px;
-	padding-top: 17px;
+	max-width:250px;
+	padding-top: 25px;
 	height: auto;
 }
 
