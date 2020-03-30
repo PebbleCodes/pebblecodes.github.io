@@ -63,26 +63,41 @@ hr {
 	box-shadow: 0px 2px 2px rgb(41, 41, 41);
   }
   .hero-nav .hero-nav__inner {
+	background-color: rgba(26, 54, 82, 0.01);
+	padding-top: 3.5vw;
 	z-index: 1;
+	width: 100%;
+	letter-spacing: 2.5px;
   }
   .hero-nav h1 {
 	color: #efefef;
 	font-size: 5vw;
   }
 
+  .logo {
+	  text-align: center;
+	  margin-top:0px;
+	  float: left;
+	  line-height: 75px;
+	  padding-left:50px;
+  }
+
+  .navbar {
+	  line-height: 75px;
+  }
+
   .hero-nav ul {
-	background-color: rgba(26, 54, 82, 0.01);
-	
 	line-height: 3.5em;
 	margin: auto;
 	list-style-type: none;
 	text-align: center;
-	letter-spacing: 2.5px;
+	
+	
   }
 
-  .hero-nav ul li:hover {
-	color: rgba(255, 255, 255, 0.1);
-	background-color: rgba(255, 255, 255, 0.1);
+  .hero-nav ul li a:hover {
+	color: rgb(26, 54, 82);
+	background-color: rgb(255, 255, 255)
   }
 
   .hero-nav ul li {
@@ -90,21 +105,20 @@ hr {
 	display: inline-block;
 	font-size: 2.25vw;
 	font-style: bold;
-	width: 300px;
-	max-width: 1000px;
+	width: 280px;
+	max-width: 350px;
 	height : 100%;
 	max-height: 75px;
+	min-height: 75px;
   }
 
   .hero-nav ul li a {
 	font-family: 'Unispace';
-	color: rgba(255, 255, 255, 1);
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	display: inline-block;
-	padding-bottom: 1.5vw;
-	padding-right: 1.5vw;
-	padding-left: 1.5vw;
-	text-align: center;
+	padding-right: 1vw;
+	padding-left: 1vw;
   }
 
 
