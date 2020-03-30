@@ -219,16 +219,15 @@ footer address {
 			color: rgba(255, 255, 255, 1);
 			text-decoration: none;
 			display: inline-table;
-			padding-right: 1.5vw;
 			padding-top: 1.2vw;
-			padding-left: 1.5vw;
 			text-align: center;
+			font-size: 5vw;
 	}
 		
 	.navbar li {
 			list-style-type: none;
 			display: inline-block;
-			font-size: 5vw;
+			
 			font-style: bold;
 	}
 		
