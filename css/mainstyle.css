@@ -115,6 +115,8 @@ nav ul li a {
 	text-decoration: none;
 	display: inline-table;
 	padding-right: 1.5vw;
+	padding-bottom: 0.6vw;
+	padding-top: 0.6vw;
 	padding-left: 1.5vw;
 	text-align: center;
 }
@@ -127,8 +129,7 @@ nav ul li a {
 }
 
 #navlist img {
-	max-width: 12vw;
-	padding-top: 1.2vw;
+	max-width: 8vw;
 	height: auto;
 }
 
