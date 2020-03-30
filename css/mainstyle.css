@@ -54,7 +54,7 @@ hr {
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
-	height: 400px;
+	height: 700px;
 	min-height: 75px;
 	background-image: url(https://pebblecodes.com/images/seattle.jpg);
 	background-size: cover;
@@ -185,4 +185,65 @@ footer address {
 				
 		}
 
+	nav ul {
+			background-color: rgba(26, 54, 82, 0.01);
+			
+			line-height: 3.5em;
+			margin: auto;
+			list-style-type: none;
+			text-align: center;
+			letter-spacing: 2.5px;
+	}
+		
+	nav ul li:hover {
+			color: rgba(255, 255, 255, 0.1);
+			background-color: rgba(255, 255, 255, 0.1);
+	}
+		
+	nav ul li a {
+			font-family: 'Unispace';
+			color: rgba(255, 255, 255, 1);
+			text-decoration: none;
+			display: inline-table;
+			padding-right: 1.5vw;
+			padding-top: 1.2vw;
+			padding-left: 1.5vw;
+			text-align: center;
+	}
+		
+	#navlist li {
+			list-style-type: none;
+			display: inline-block;
+			font-size: 2vw;
+			font-style: bold;
+	}
+		
+	#navlist img {
+			max-width: 18vw;
+			height: auto;
+	}
+
+	.hero-nav {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+			-ms-flex-pack: center;
+				justify-content: center;
+		-webkit-box-align: center;
+			-ms-flex-align: center;
+				align-items: center;
+		height: 300px;
+		min-height: 150px;
+		background-image: url(https://pebblecodes.com/images/seattle.jpg);
+		background-size: cover;
+		background-position: center;
+		overflow: hidden;
+		box-shadow: 0px 2px 2px rgb(41, 41, 41);
+	  }
 }
