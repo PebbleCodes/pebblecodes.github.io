@@ -180,19 +180,23 @@ footer address {
 	clear: left;
 }
 
-/* iPhone-specific styles */
+/* Mobile-specific styles */
 @media only screen and (max-device-width: 480px) { 
 
 	html {
 		-webkit-text-size-adjust: none;
 		}
+
+	.hero-nav .hero-nav__inner {
+		padding-top: 3.75vw;	
+	}
 	.page-content {
 		width: auto;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
 		margin: 0 auto;
 		line-height: 1.625;
-		font-size: 30px;
+		font-size: 32px;
 				
 		}
 
@@ -221,16 +225,21 @@ footer address {
 			text-align: center;
 	}
 		
-	#navlist li {
+	.navbar li {
 			list-style-type: none;
 			display: inline-block;
-			font-size: 2vw;
+			font-size: 5vw;
 			font-style: bold;
 	}
 		
-	#navlist img {
-			width: auto;
-			height: auto;
+	.logo {
+		text-align: center;
+		margin-top:0px;
+		float: left;
+		line-height: 75px;
+		padding-left:50px;
+		width: 100%;
+		max-width: 145px;
 	}
 
 	.hero-nav {
