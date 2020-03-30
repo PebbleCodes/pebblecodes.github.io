@@ -55,7 +55,7 @@ hr {
 		-ms-flex-align: center;
 			align-items: center;
 	height: 700px;
-	min-height: 75px;
+	min-height: 5.35vw;
 	background-image: url(https://pebblecodes.com/images/seattle.jpg);
 	background-size: cover;
 	background-position: center;
@@ -128,7 +128,7 @@ nav ul li a {
 }
 
 #navlist img {
-	max-width: 13vw;
+	max-width: 20vw;
 	height: auto;
 }
 
