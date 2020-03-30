@@ -192,7 +192,6 @@ footer address {
 			margin: auto;
 			list-style-type: none;
 			text-align: center;
-			letter-spacing: 2.5px;
 	}
 		
 	nav ul li:hover {
@@ -219,7 +218,7 @@ footer address {
 	}
 		
 	#navlist img {
-			max-width: 18vw;
+			width: auto;
 			height: auto;
 	}
 
