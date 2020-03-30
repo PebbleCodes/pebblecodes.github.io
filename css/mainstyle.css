@@ -113,28 +113,22 @@ nav ul li a {
 	font-family: 'Unispace';
 	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
-	display: inline-block;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-right: 25px;
-	padding-left: 25px;
-	text-align: right;
+	display: inline-table;
+	padding-right: 1.5vw;
+	padding-left: 1.5vw;
+	text-align: center;
 }
 
 #navlist li {
 	list-style-type: none;
 	display: inline-block;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	font-style: bold;
 }
 
-#navlist #pebble {
-	text-align: right;
-}
-
 #navlist #pebble img {
-	max-width:250px;
-	padding-top: 6%;
+	max-width: 12vw;
+	padding-top: 1.2vw;
 	height: auto;
 }
 
