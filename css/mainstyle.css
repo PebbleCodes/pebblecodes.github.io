@@ -162,7 +162,6 @@ footer {
 	padding-top: 6px;
 	padding-bottom: 12px;
 	text-align: center;
-	clear: left;
 } 
 
 footer a {
@@ -176,10 +175,6 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
-}
-
-footer address {
-	text-align: center;
 }
 
 /* Mobile-specific styles */
