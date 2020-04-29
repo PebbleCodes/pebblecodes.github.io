@@ -153,8 +153,15 @@ hr {
 /* Footer Styles */
 
 footer {
-	display: flex;
-	align-items: center;
+	position: left;
+ 	clear: both;
+ 	color: gray;
+ 	text-align:center;
+ 	height: 20px;	
+ 	line-height: 50px;
+	font-size: 80%;
+ 	margin-left:-100%;
+ 	margin-right:-100%;
 } 
 
 footer a {
