@@ -157,17 +157,14 @@ footer {
 	width: 100%;
 	padding-top: 25px;
 	padding-left: 25%;
-	font-size: 90%;
-	font-size: normal;
+	font-size: 2.5vw;
 	padding-top: 6px;
 	padding-bottom: 12px;
-	text-align: center;
 } 
 
 footer a {
 	color: gray;
 	text-align: center;
-	font-size: 90%;
 	padding-right: 0.5em;
 	text-decoration: none;
 	font-weight: bold;
