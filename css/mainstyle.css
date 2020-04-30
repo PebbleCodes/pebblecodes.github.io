@@ -92,8 +92,6 @@ hr {
 	margin: auto;
 	list-style-type: none;
 	text-align: center;
-	
-	
   }
 
   .hero-nav ul li {
@@ -147,7 +145,8 @@ hr {
 	  text-decoration: none;
   }
   .page-content h2 {
-	padding-bottom: 1px;
+	padding: 0;
+	margin: 0;
   }
 
 /* Footer Styles */
