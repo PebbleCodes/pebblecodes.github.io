@@ -241,7 +241,7 @@ footer a:hover {
 		line-height: 75px;
 		padding-left:50px;
 		width: 100%;
-		max-width: 160px;
+		max-width: 145px;
 	}
 
 	.hero-nav {
@@ -291,7 +291,6 @@ footer a:hover {
 	}
 
 	.page-content img {
-		margin: auto;
 		width: 80%;
 		display: block;
 		margin-left: auto;
