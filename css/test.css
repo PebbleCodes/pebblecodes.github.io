@@ -47,8 +47,7 @@ header {
 
 	margin: 20px;
 	float: left;
-	height: 70px;
-	background: url(/images/pebblecodes-icon.png) no-repeat center;
+	background: url(/images/pebblecodes-text.png) no-repeat center;
 	display: block;
 
 }
@@ -91,8 +90,8 @@ li {
 }
 
 p img {
-    width: 75px;
-    height: 75px;
+    width: 300px;
+    height: 300px;
     text-align: center;
 }
 
