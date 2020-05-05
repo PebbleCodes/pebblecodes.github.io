@@ -56,7 +56,7 @@ header {
 
     margin: 20px;
     max-height: 65px;
-	display: inline;
+    float: left;
 
 }
 
