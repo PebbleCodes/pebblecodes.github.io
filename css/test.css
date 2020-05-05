@@ -67,13 +67,6 @@ nav {
 
 }
 
-a:hover#menu-icon {
-
-	background-color: #444;
-	border-radius: 1px 1px 0 0;
-
-}
-
 ul {
 
 	list-style: none;
@@ -118,10 +111,15 @@ h1 {
 
 }
 
+h2 {
+    color: black;
+}
+
 p {
 
 	line-height: 1.45em;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    color: black;
 
 }
 
