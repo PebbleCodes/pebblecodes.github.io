@@ -12,7 +12,7 @@ body {
 
 a {
 
-	color: #4C9CF1;
+	color: #0f75bb;
 	text-decoration: none;
 	font-weight: bold;
 
@@ -97,7 +97,7 @@ p img {
 
 .current {
 
-	color: rgb(57, 133, 214);
+	color: #0f75bb;
 
 }
 
@@ -113,7 +113,7 @@ section {
 h1 {
 
 	font-size: 2em;
-	color: rgb(57, 133, 214);
+	color: #0f75bb;
 	line-height: 1.15em;
 	margin: 20px 0 ;
 
