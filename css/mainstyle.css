@@ -83,7 +83,7 @@ hr {
 	  padding-left:50px;
   }
 
-  .navbar {
+  #navbar {
 	line-height: 75px;
 	line-height: 3.5em;
 	margin: auto;
@@ -241,7 +241,7 @@ footer a:hover {
 		max-width: 145px;
 	}
 
-	.hero-nav .navbar {
+	.hero-nav #navbar {
 		display: none;
 	}
 
