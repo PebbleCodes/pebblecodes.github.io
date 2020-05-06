@@ -54,6 +54,7 @@ header {
 
 #logo{
 
+    margin: 35px;
     margin-left: 20px;
     max-height: 65px;
     float: left;
@@ -236,6 +237,7 @@ a:hover {
 
         display:block;
         text-align: center;
+        margin: 50%;
 
     }
 
