@@ -70,7 +70,6 @@ nav ul li {
 
     float: right;
     margin-top: 6px;
-    max-width: 180px;
 
 }
 
@@ -82,7 +81,7 @@ nav ul li a {
 	font-weight: bold;
 }
 
-nav ul li a {
+nav ul li a:hover {
     color: #0f75bb;
 }
 
@@ -243,7 +242,7 @@ a:hover {
 
 		display: block;
         position: absolute;
-		padding: 20px;
+		padding: 10px;
 		background: rgb(42, 88, 134);
 		top: 80px;
 
