@@ -39,6 +39,14 @@ img {
 
 }
 
+#icon {
+    display: hidden;
+}
+
+#text {
+    display: inline;
+}
+
 header {
 
 	background: rgb(26, 54, 82);
@@ -243,13 +251,22 @@ a:hover {
 
 	nav ul { 
 
+
 		display: block;
         position: absolute;
 		padding: 10px;
 		background: rgb(42, 88, 134);
 		top: 80px;
 
-	}
+    }
+    
+    #icon {
+        display: inline;
+    }
+
+    #text {
+        display: hidden;
+    }
 
 	nav li a {
 
