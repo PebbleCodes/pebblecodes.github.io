@@ -43,7 +43,7 @@ header {
 
 	background: rgb(26, 54, 82);
 	width: 100%;
-	height: 78px;
+	height: 80px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -74,9 +74,16 @@ nav ul li {
 
 }
 
-nav ul a {
+nav ul li a {
     display: block;
     padding: 8px;
+    color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul li a {
+    color: #0f75bb;
 }
 
 li {
@@ -220,7 +227,8 @@ a:hover {
 
 	header {
 
-		position: absolute;
+        position: absolute;
+        width: 100%
 
 	}
 
@@ -229,7 +237,7 @@ a:hover {
         display:block;
         text-align: center;
 
-	}
+    }
 
 	nav ul { 
 
@@ -237,29 +245,19 @@ a:hover {
         position: absolute;
 		padding: 20px;
 		background: rgb(42, 88, 134);
-		right: 15px;
-		top: 15px;
-		width: 100%;
-        border-radius: 4px 0 4px 4px;
+		top: 80px;
 
 	}
 
-	nav li {
+	nav li a {
 
 		text-align: center;
-		width: 100%;
 		padding: 10px 0;
         margin: 0;
         font-size: 26px;
         color: #ffffff;
 
 	}
-
-	nav:hover ul {
-
-		display: block;
-
-    }
  
     .footer-distributed .footer-left, .footer-distributed .footer-right {
         text-align: center;
