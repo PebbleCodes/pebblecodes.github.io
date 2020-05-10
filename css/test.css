@@ -64,7 +64,7 @@ header {
 
     margin: 35px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     max-height: 65px;
     float: left;
 
@@ -99,7 +99,7 @@ nav ul li a:hover {
 
 li {
 
-    font-size: 35px;
+    font-size: 20px;
 	padding: 10px
 
 }
@@ -234,7 +234,7 @@ a:hover {
 }
 
 /*MEDIA QUERY*/
-@media only screen and (max-width : 640px) {
+@media only screen and (max-width : 800px) {
 
 	header {
 
@@ -254,14 +254,16 @@ a:hover {
 
 		display: block;
         position: absolute;
-		padding: 10px;
 		background: rgb(42, 88, 134);
-		top: 80px;
+        top: 80px;
+        margin: 0 auto 20px;
+        float: none;
 
     }
     
     #icon {
         display: inline;
+        text-align: center;
     }
 
     #text {
@@ -272,9 +274,10 @@ a:hover {
 
 		text-align: center;
 		padding: 10px 0;
-        margin: 0;
-        font-size: 26px;
+        margin: 0 auto 20px;
+        font-size: 22px;
         color: #ffffff;
+        float: none;
 
 	}
  
