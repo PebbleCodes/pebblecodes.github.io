@@ -349,7 +349,11 @@ nav {
   line-height: 1.8;
 }
 
-
+#fourOhFour {
+  text-align: center;
+  font-size: 2em;
+	color: #13486b;
+}
 
 @media (min-width: 780px) {
 
