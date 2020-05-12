@@ -125,16 +125,12 @@ header {
   background-color: rgb(26, 54, 82);
 }
 
+.logo b {
+  color: #1982c9;
+}
+
 .logo span {
   cursor: pointer;
-}
-
-.logo #pebble {
-  color: white;
-}
-
-.logo #codes {
-  color: #1982c9;
 }
 
 .menu-toggle {
@@ -392,7 +388,6 @@ nav {
       margin: 0;
       padding-left: 20px;
   }
-
 
     nav {
       display: flex;
