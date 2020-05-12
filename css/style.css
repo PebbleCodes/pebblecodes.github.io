@@ -44,12 +44,10 @@ img {
 	max-width: 980px;
 	position: relative;
   padding: 20px;
-  z-index: -1;
-  position: relative;
 
 }
 
-h1 {
+#main h1 {
 
 	font-size: 2em;
 	color: #0f75bb;
@@ -58,23 +56,23 @@ h1 {
 
 }
 
-h2 {
-    color: black;
+#main h2 {
+  color: black;
 }
 
-p {
+#main p {
 
 	line-height: 1.45em;
-    margin-bottom: 20px;
-    color: black;
+  margin-bottom: 20px;
+  color: black;
 
 }
 
-a {
+#main a {
     color: #0f75bb;
 }
 
-a:hover {
+#main a:hover {
     color: #0a4d79;
 }
 
@@ -136,6 +134,41 @@ header {
 .logo #logo {
   cursor: pointer;
 }
+
+.tetris {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.tetris img {
+  max-width: 100%;
+}
+
+#git {
+  text-align: center;
+}
+
+#git a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(37, 77, 117);
+  border-radius: 2px;
+  font-size: 35px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 3px;
+  transition: all .25s;
+}
+
+#git a:hover {
+  transform: scale(1.1);
+  -webkit-transform:scale(1.1);
+  color: #1982c9;
+}
+
+
 .menu-toggle {
   position: absolute;
   padding: 0.8em;
@@ -396,6 +429,10 @@ nav {
       flex: 0 0 200px;
       margin: 0;
       padding-left: 20px;
+  }
+
+  .tetris img {
+    max-width: 33%;
   }
 
     nav {
