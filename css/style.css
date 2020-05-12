@@ -113,7 +113,7 @@ header {
 }
 
 .logo img {
-  max-height: 50px;
+  max-width: 50px;
 }
 
 .logo {
@@ -384,7 +384,9 @@ nav {
       background-color: rgb(42, 88, 134);
     }
 
-
+  .logo img {
+    max-width: 100%;
+  }
 
   .logo {
       flex: 0 0 200px;
