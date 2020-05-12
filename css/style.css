@@ -361,7 +361,11 @@ nav {
     display: none;
   }
 
-
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
 
   nav ul {
     display: flex;
