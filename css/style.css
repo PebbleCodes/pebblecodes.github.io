@@ -104,6 +104,13 @@ header {
   display: block;
 }*/
 
+.logo a {
+  all: unset
+}
+
+.logo a:hover {
+  all: unset;
+}
 
 .logo {
   color: #fff;
@@ -118,23 +125,16 @@ header {
   background-color: rgb(26, 54, 82);
 }
 
-.logo mark {
-  font-weight: 900;
-  color: #1982c9;
-  background-color: rgba(190, 190, 190, 0);
-}
-
 .logo span {
   cursor: pointer;
 }
 
-.logo a {
-  all: unset
+.logo #pebble {
+  color: white;
 }
 
-
-.logo a:hover {
-  all: unset;
+.logo #codes {
+  color: #1982c9;
 }
 
 .menu-toggle {
