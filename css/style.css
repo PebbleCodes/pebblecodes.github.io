@@ -126,17 +126,12 @@ header {
 }
 
 .logo span {
-  cursor: pointer;
-}
-
-.logo .pebble {
-  color: #f3f3f3;
-}
-
-.logo .codes {
   color: #1982c9;
 }
 
+.logo #logo {
+  cursor: pointer;
+}
 .menu-toggle {
   position: absolute;
   padding: 0.8em;
