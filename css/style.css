@@ -112,6 +112,10 @@ header {
   all: unset;
 }
 
+.logo img {
+  max-width: 75%;
+}
+
 .logo {
   color: #fff;
   font-size: 2rem;
@@ -386,6 +390,10 @@ nav {
       flex: 0 0 200px;
       margin: 0;
       padding-left: 20px;
+  }
+
+  .logo img {
+    max-width: 100%;
   }
 
     nav {
