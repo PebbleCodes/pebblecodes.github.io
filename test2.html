@@ -1,19 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#myDIV {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  color: white;
+  bottom: 0px;
+  animation: mymove 5s infinite;
+}
 
-<link rel="stylesheet" href="css/test2.css">
+@keyframes mymove {
+  50% {bottom: 300px;}
+}
+</style>
+</head>
+<body>
 
-<script src="https://use.fontawesome.com/5ac0a3ae64.js"></script>
+<h1>Animation of bottom property</h1>
 
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <a href="#home" class="active">Logo</a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+<p>Gradually change the bottom property from 0px to 300px, then back:<p>
+<div id="myDIV">
+  <h1>myDIV</h1>
 </div>
+
+<p><b>Note:</b> CSS Animations do not work in Internet Explorer 9 and earlier versions.</p>
+
+</body>
+</html>
