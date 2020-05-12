@@ -40,7 +40,7 @@ img {
 
 #main {
 
-	margin: 80px auto 40px;
+	margin: 10px auto 40px;
 	max-width: 980px;
 	position: relative;
   padding: 20px;
@@ -52,12 +52,14 @@ img {
 	font-size: 2em;
 	color: #0f75bb;
 	line-height: 1.15em;
-	margin: 20px 0 ;
+  margin: 20px 0 ;
+  padding-top: 5px;
 
 }
 
 #main h2 {
   color: black;
+  text-align: center;
 }
 
 #main p {
@@ -118,7 +120,7 @@ header {
   color: #fff;
   font-size: 2rem;
   margin: 0;
-  padding-top: 14px;
+  padding-top: 18px;
   padding-left: 14px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -224,6 +226,7 @@ nav {
     margin: 0;
     padding: 0;
     z-index: 1;
+    position: relative;
 }
 
 nav ul {
@@ -259,7 +262,7 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background: rgba(190, 190, 190, 0.9);
+  background: rgba(190, 190, 190, 1);
   color: #1982c9;
 }
 
@@ -392,6 +395,15 @@ nav {
 
   .menu-toggle {
     display: none;
+  }
+
+  #main {
+
+    margin: 80px auto 40px;
+    max-width: 980px;
+    position: relative;
+    padding: 20px;
+  
   }
 
   nav {
