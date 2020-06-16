@@ -337,8 +337,8 @@ nav {
   text-align: left;
 }
 */
-
-.footer-distributed {
+/*
+.footer-distributed-contact {
   background-color: rgb(26, 54, 82);
   box-shadow: 0 2px 0 rgb(42, 88, 134);
   box-sizing: border-box;
@@ -346,9 +346,10 @@ nav {
   text-align: left;
   font: normal 16px sans-serif;
   padding: 45px 50px;   
-  display: bottom;
-                                      
+  bottom: 0px;
+  position: fixed;
 }
+*/
 
 .footer-distributed {
   background-color: rgb(26, 54, 82);
@@ -436,6 +437,90 @@ nav {
   text-align: center;
   font-size: 2em;
 	color: #13486b;
+}
+
+.footer-distributed-contact {
+  background-color: rgb(26, 54, 82);
+  box-shadow: 0 2px 0 rgb(42, 88, 134);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  bottom: 0;
+  position: fixed;                                       
+}
+
+.footer-distributed-contact .footer-left p {
+  color: rgb(37, 77, 117);
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-distributed-contact p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+
+.footer-distributed-contact p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+
+.footer-distributed-contact .footer-links a:before {
+  content: ".";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed-contact .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed-contact .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: rgb(37, 77, 117);
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all .25s;
+}
+
+.footer-distributed-contact .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform:scale(1.1);
+}
+
+.footer-distributed-contact p.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-distributed-contact .footer-left, .footer-distributed .footer-right {
+  text-align: center;
+}
+
+.footer-distributed-contact .footer-right {
+  float: none;
+  margin: 0 auto 20px;
+}
+
+.footer-distributed-contact .footer-left p.footer-links {
+  line-height: 1.8;
 }
 
 @media (min-width: 780px) {
@@ -530,6 +615,20 @@ nav {
   }
 
   .footer-distributed .footer-right {
+    text-align: right;
+  }
+
+  .footer-distributed-contact .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+  }
+
+  .footer-distributed-contact .footer-left {
+    text-align: left;
+  }
+
+  .footer-distributed-contact .footer-right {
     text-align: right;
   }
 }
