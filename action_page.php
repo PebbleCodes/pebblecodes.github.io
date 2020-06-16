@@ -1,6 +1,6 @@
 <?php
     $name = $_POST['name'];
-    $vistor_email = $_POST['email'];
+    $vistor_email = $_POST['address'];
     $message = $_POST['message'];
 
     $email_from = 'contact@pebblecodes.com';
