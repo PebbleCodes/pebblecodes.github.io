@@ -345,6 +345,18 @@ nav {
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
+  padding: 45px 50px;   
+  display: bottom;
+                                      
+}
+
+.footer-distributed {
+  background-color: rgb(26, 54, 82);
+  box-shadow: 0 2px 0 rgb(42, 88, 134);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
   padding: 45px 50px;                                       
 }
 
