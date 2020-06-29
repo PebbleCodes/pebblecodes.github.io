@@ -395,7 +395,7 @@ nav {
 }
 
 .footer-distributed .footer-links a:before {
-  content: ".";
+  content: "|";
   font-size: 20px;
   left: 0;
   color: #fff;
@@ -430,7 +430,7 @@ nav {
   text-decoration: underline;
 }
 
-.footer-distributed .footer-left, .footer-distributed .footer-right {
+.footer-distributed .footer-left, .footer-distributed, .footer-right {
   text-align: center;
 }
 
@@ -485,7 +485,7 @@ nav {
 }
 
 .footer-distributed-contact .footer-links a:before {
-  content: ".";
+  content: "|";
   font-size: 20px;
   left: 0;
   color: #fff;
@@ -520,7 +520,7 @@ nav {
   text-decoration: underline;
 }
 
-.footer-distributed-contact .footer-left, .footer-distributed .footer-right {
+.footer-distributed-contact .footer-left, .footer-distributed, .footer-right {
   text-align: center;
 }
 
