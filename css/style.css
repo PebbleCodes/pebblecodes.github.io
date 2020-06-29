@@ -614,6 +614,14 @@ nav {
     display: none;
   }
 
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    font-size: 25px;
+  }
+
   .footer-distributed .footer-right {
     float: right;
     margin-top: 6px;
@@ -651,5 +659,12 @@ nav {
     font: normal 16px sans-serif;
     padding: 45px 50px;  
     position: absolute;                                       
+}
+.footer-distributed-contact p.footer-links {
+  font-size: 18px;
+}
+
+.footer-distributed-contact .footer-links a:before {
+  font-size: 25px;
 }
 }
