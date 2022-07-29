@@ -27,9 +27,8 @@
     letter-spacing: 2px;
 }
 
-@media (min-width: 780px) {
+@media (max-width: 780px) {
     .rating {
-        position: fixed;
         width: 100%;
     }
 }
