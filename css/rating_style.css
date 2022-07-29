@@ -29,6 +29,7 @@
 
 @media (min-width: 780px) {
     .rating {
-        width: 90%;
+        position: fixed;
+        width: 100%;
     }
 }
