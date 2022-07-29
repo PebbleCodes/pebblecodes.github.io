@@ -1,6 +1,6 @@
 .rating {
     margin: auto;
-    width: 500px;
+    width: 50%;
     padding: 10px;
     text-align: center;
 }
@@ -25,4 +25,10 @@
     cursor: pointer;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+@media (min-width: 780px) {
+    .rating {
+        width: 100%;
+    }
 }
