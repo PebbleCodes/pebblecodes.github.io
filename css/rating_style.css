@@ -31,4 +31,7 @@
     .rating {
         width: 100%;
     }
+    .star {
+        font-size: 75px;
+    }
 }
