@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pebble Codes</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,700" rel="stylesheet">
+
+  <script src="https://use.fontawesome.com/5ac0a3ae64.js"></script>
+
+  <link rel="shortcut icon" href="/images/pebblecodes-icon3.png" type="image/x-icon"/>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rating_style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <nav class="site-nav">
+          <h1 class="logo"><a id="logo" href="https://pebblecodes.com"><img src="images/pebblecodes-text.png" alt="PebbleCodes"/></a></h1>
+
+            <div class="menu-toggle">
+              <div class="hamburger"></div>
+            </div>
+
+            <ul class="open desktop">
+                <li><a href="https://pebblecodes.com/"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+                <li><a href="/projects" class="current"><i class="fa fa-code site-nav--icon"></i>Projects</a></li>
+                <li><a href="/photos"><i class="fa fa-camera site-nav--icon"></i>Photography</a></li>
+                <li><a href="/contact"><i class="fa fa-envelope site-nav--icon"></i>Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section id="main">
+      <div class="rating">
+        <h1>Rate a Joke</h1>
+          <h2><div id="currentDate"></div></h2>
+          <script>
+            var today = new Date();
+            var date = (today.getMonth()+1)+'/'+today.getDate()+'/'+today.getFullYear();
+            document.getElementById("currentDate").innerHTML = date;
+          </script>
+          <form>
+            <i class="star inactive" onmouseover="fillStar(this)" onmouseleave="emptyStar(this)">&star;</i>
+            <i class="star inactive" onmouseover="fillStar(this)" onmouseleave="emptyStar(this)">&star;</i>
+            <i class="star inactive" onmouseover="fillStar(this)" onmouseleave="emptyStar(this)">&star;</i>
+            <i class="star inactive" onmouseover="fillStar(this)" onmouseleave="emptyStar(this)">&star;</i>
+            <i class="star inactive" onmouseover="fillStar(this)" onmouseleave="emptyStar(this)">&star;</i>
+            <h3>Current Rating:</h3>
+            <b><div id="rating">0</div></b>
+            <div style="display:None" id="previousRating"></div>
+
+            <div class="submitButton" onmousedown=submitForm()><b><p>Submit</p></b></div>
+            <p id="status"></p>
+          </form>
+      </div>
+      <script src="js/stars.js"></script>
+    </section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+
+    <script src="js/index.js"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+<footer class="footer-distributed-contact">
+  <div class="footer-right">
+    <a href="https://instagram.com/pebblebrz" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="https://github.com/PebbleCodes" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="mailto:mark@pebblecodes.com"><i class="fa fa-at"></i></a>
+    <a href="https://www.linkedin.com/in/mark-stone-9ab0591a8" target="_blank"><i class="fa fa-linkedin"></i></a>
+  </div>
+  <div class="footer-left">
+      <p class="footer-links">
+          <a class="link-1" href="https://pebblecodes.com/">Home</a>
+          <a href="/projects">Projects</a>
+          <a href="/photos">Photography</a>
+          <a href="/contact">Contact Me</a>
+      </p>
+      <p>Pebble Codes &copy; 2020</p>
+  </div>
+</footer>
+</html>

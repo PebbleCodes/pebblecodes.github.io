@@ -1,0 +1,28 @@
+.rating {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.star {
+    cursor: pointer;
+    color: #ddc019b2;
+    font-size: 50px;
+    text-shadow: 1px;
+}
+
+.submitButton:hover {
+    background-color: #0f75bb;
+}
+
+.submitButton {
+    background-color: #cccccc;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
