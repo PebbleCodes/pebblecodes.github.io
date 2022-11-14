@@ -5,7 +5,20 @@
     text-align: center;
 }
 
-#intake {
+.halfLife {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.history {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#intake, #estimatedCaffeine {
     display: inline;
     color:black;
 }
@@ -15,13 +28,8 @@
     font-style: italic;
 }
 
-.history {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
-
 #historyList {
     color: black;
     list-style-type: none;  
 }
+
