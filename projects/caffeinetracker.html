@@ -11,11 +11,58 @@
       
         <link rel="shortcut icon" href="/images/pebblecodes-icon3.png" type="image/x-icon"/>
       
+        <!--
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/caffeine_tracker_style.css">
+        Temporary reference for local development -->
+        <link rel="stylesheet" href="https://pebblecodes.com/css/style.css">
+        <link rel="stylesheet" href="temp_caffeine_tracker_style.css">
       
       </head>
     <body>
-        <h1 title="Helps track your total caffeine intake for those who might overuse caffeine.">Caffeine Intake Tracker</h1>
+        <div class="wrapper">
+            <nav class="site-nav">
+              <h1 class="logo"><a id="logo" href="https://pebblecodes.com"><img src="./images/pebblecodes-text.png" alt="PebbleCodes"/></a></h1>
+    
+                <div class="menu-toggle">
+                  <div class="hamburger"></div>
+                </div>
+    
+                <ul class="open desktop">
+                    <li><a href="https://pebblecodes.com/"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+                    <li><a href="/projects" class="current"><i class="fa fa-code site-nav--icon"></i>Projects</a></li>
+                    <li><a href="/photos"><i class="fa fa-camera site-nav--icon"></i>Photography</a></li>
+                    <li><a href="/contact"><i class="fa fa-envelope site-nav--icon"></i>Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <section id="main">
+            <div class="caffeinetracker">
+                <h1 title="Helps track your total caffeine intake for those who might overuse caffeine.">Caffeine Intake Tracker</h1>
+
+                <form>
+                    <h3>Current Caffeine Intake:</h3>
+                    <b id="mg"><div id="intake">0</div>mg</b>
+                    
+                    <input type="text" placeholder="Caffeine (mg)" id="caffeineInput" class="intakeClass">
+                    <button type="button" onclick="updateCaffeineIntake();">Add Caffeine</button>
+                </form>
+            </div>
+            <div id="history">
+                <h2 title="This is where the recorded entries are.">History</h2>
+                <ol>
+                    <div id="historyList">
+
+                    </div>
+                </ol>
+            </div>
+            <!-- 
+            <script src="/js/caffeine_tracker.js"></script>
+            Temporary reference for local development
+            -->
+            <script src="temp_caffeine_tracker.js"></script>
+        </section>
         
     </body>
     <footer class="footer-distributed-contact">
