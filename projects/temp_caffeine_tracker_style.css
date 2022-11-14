@@ -15,8 +15,14 @@
     font-style: italic;
 }
 
+.history {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
 #historyList {
     color: black;
-    text-align: center;
     list-style-type: none;  
 }
